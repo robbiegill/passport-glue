@@ -1,2 +1,2 @@
-passport-glue
-=============
+passport-users
+==============

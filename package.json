@@ -1,0 +1,33 @@
+{
+  "name": "passport-glue",
+  "version": "0.0.1",
+  "description": "Glue for Passport and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/robbiegill/passport-glue.git"
+  },
+  "keywords": [
+    "passport",
+    "mongoose",
+    "authentication",
+    "users"
+  ],
+  "author": "Robbie Gill",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "mongoose": "*",
+    "node-uuid": "*",
+    "goose-plugins": "*",
+    "bcrypt": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.0",
+    "grunt-jasmine-node": "*",
+    "jasmine-node": "*"
+  }
+}
