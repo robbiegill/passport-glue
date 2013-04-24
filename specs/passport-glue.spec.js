@@ -1,4 +1,4 @@
-describe('passport-users -> ', function() {
+describe('passport-glue -> ', function() {
   var ppu = require('../index');
 
   it('should have a version number', function() {
@@ -23,6 +23,10 @@ describe('passport-users -> ', function() {
 
   it('should have a local_auth_plugin', function() {
     expect(typeof ppu.local_auth_plugin).toBe('function');
+  });
+
+  it('should have a auth_type_plugin', function() {
+    expect(typeof ppu.auth_type_plugin).toBe('function');
   });
 
 });

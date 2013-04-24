@@ -1,6 +1,6 @@
 {
   "name": "passport-glue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Glue for Passport and Mongoose",
   "main": "index.js",
   "scripts": {
@@ -29,5 +29,6 @@
     "grunt": "~0.4.0",
     "grunt-jasmine-node": "*",
     "jasmine-node": "*"
-  }
+  },
+  "gitHead": "68218e858c4d13d2ce24d6cd61fe873307188ebc"
 }
