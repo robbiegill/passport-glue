@@ -1,7 +1,7 @@
 # passport-glue [![Build Status](https://travis-ci.org/robbiegill/passport-glue.png?branch=master)](https://travis-ci.org/robbiegill/passport-glue)
 All the glue you need for integrating Passport, Express, and Mongoose.
 
-Passport provides everything you need to use oauth or other authorization methods with Google, GitHub, Twitter, and loads more.
+[Passport](https://github.com/jaredhanson/passport) provides everything you need to use oauth or other authorization methods with Google, GitHub, Twitter, and loads more.
 Glue plugins give your Mongoose models keys and methods to find or create users 
 from authentication provider responses and to (de)serialize users for persistent sessions. 
 Simultaneously support multiple authentication providers, just add the plugin for each provider you want to use.
